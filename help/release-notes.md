@@ -1,25 +1,25 @@
 ---
-title: AEM Aperçu des formulaires adaptatifs sans affichage
-description: Présentation des AEM de formulaires adaptatifs sans affichage.
+title: Vue d’ensemble des formulaires adaptatifs découplés AEM
+description: Vue d’ensemble des formulaires adaptatifs découplés AEM.
 hide: true
 exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
 source-git-commit: 0127f8ddede38083f0932b0e8d7efdd0dd77c3a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
 # Notes de mise à jour
 
-Bienvenue dans la version des premiers adopteurs des formulaires adaptatifs sans affichage de Experience Manager. Lisez la suite pour obtenir des ressources et des instructions afin de commencer et tirer le meilleur parti de la version.
+Bienvenue dans la version à accès anticipé d’Experience Manager destinée aux utilisateurs et utilisatrices précoces. Poursuivez votre lecture pour obtenir des ressources et des instructions pour démarrer et tirer le meilleur parti de cette version.
 
-Vous pouvez utiliser des formulaires adaptatifs sans affichage Adobe Experience Manager pour créer des applications de formulaires à l’aide de structures d’interface utilisateur frontales telles que React, Angular, etc., et utiliser le SDK Web de Forms adaptatif pour des fonctionnalités telles que la gestion de l’état, la validation et les intégrations à d’autres points de contact.
+Vous pouvez utiliser les formulaires adaptatifs découplés Adobe Experience Manager pour créer des applications de formulaires à l’aide de frameworks d’interface utilisateur front-end tels que React, Angular, etc., et utiliser le SDK web pour les formulaires adaptatifs pour des fonctionnalités telles que la gestion de l’état, la validation et les intégrations avec divers autres points de contact.
 
-La première version d’adoption vous permet d’utiliser des formulaires adaptatifs sans affichage dans une [environnement de développement local](setup-development-environment.md). Vous pouvez utiliser l’environnement de développement local pour créer et tester des formulaires adaptatifs sans affichage.
+La version à accès anticipé vous permet d’utiliser les formulaires adaptatifs découplés dans un [ environnement de développement local](setup-development-environment.md). Vous pouvez utiliser l’environnement de développement local pour créer et tester des formulaires adaptatifs découplés.
 
-Les formulaires adaptatifs sans affichage reçoivent régulièrement des améliorations. Pour vous tenir au courant des dernières nouveautés, consultez régulièrement cette page. Cette page vous fournit des informations sur les accès anticipés, les dernières versions, les nouvelles fonctionnalités, les améliorations, les correctifs de bogues, les fonctionnalités obsolètes, les instructions spéciales et les plans futurs de modifications.
+Les formulaires adaptatifs découplés sont continellement améliorés. Pour vous tenir au courant des dernières nouveautés, consultez régulièrement cette page. Cette page fournit des informations sur l’accès anticipé, les dernières versions, les nouvelles fonctionnalités, les améliorations, les corrections de bugs, les fonctionnalités obsolètes, les instructions spéciales et les futures modifications prévues.
 
 <!-- 
 
@@ -40,45 +40,45 @@ Les formulaires adaptatifs sans affichage reçoivent régulièrement des amélio
 
 <!-- ### React Renderer component -->
 
-## Artefacts disponibles dans une version initiale d’adoption
+## Artefacts disponibles dans la version à accès anticipé
 
-Dans le parcours pour vous apporter des formulaires adaptatifs Adobe Experience Manager sans affichage, les artefacts suivants sont disponibles dans la version la plus récente de l’adoptant :
+Dans le cadre du parcours visant à vous proposer les formulaires adaptatifs découplés Adobe Experience Manager, les artefacts suivants sont disponibles dans la version à accès anticipé :
 
-### SDK AEM FORMS AS A CLOUD SERVICE
+### SDK AEM Forms as a Cloud Service
 
-SDK AEM Forms as a Cloud Service pour vous aider à créer, stocker et récupérer des formulaires adaptatifs sans affichage. Il permet également de fournir des services de préremplissage, de validation des règles côté serveur et d’envoi pour les formulaires adaptatifs sans affichage.
+SDK AEM Forms as a Cloud Service pour vous aider à créer, à stocker et à récupérer des formulaires adaptatifs découplés. Il permet également de fournir des services de préremplissage, de validation des règles côté serveur et d’envoi pour les formulaires adaptatifs découplés.
 
-### SDK Web Forms
+### SDK web pour les formulaires
 
-Le SDK Web de Forms fournit les API permettant de valider les contraintes appliquées aux différents champs d’un formulaire et les crochets pour connecter la structure JSON du formulaire à la structure de l’interface utilisateur. Il fournit également des &#x200B; de rendu React pour les formulaires adaptatifs sans affichage afin de vous aider à intégrer un formulaire adaptatif sans affichage à votre application. Les composants suivants du SDK Web sont disponibles :
+Le SDK web pour les formulaires fournit les API pour valider les contraintes appliquées à divers champs d’un formulaire et des hooks pour connecter la structure JSON du formulaire au framework d’interface utilisateur. Il fournit également React Renderer pour les formulaires adaptatifs découplés pour vous permettre d’intégrer un formulaire adaptatif découplé à votre application. Les composants suivants du SDK web sont disponibles :
 
-* **[@aemforms/af-response-components](https://www.npmjs.com/package/@aemforms/af-react-components)**
-* **[@aemforms/af-response-renderer](https://www.npmjs.com/package/@aemforms/af-react-renderer)**
+* **[@aemforms/af-react-components](https://www.npmjs.com/package/@aemforms/af-react-components)**
+* **[@aemforms/af-react-renderer](https://www.npmjs.com/package/@aemforms/af-react-renderer)**
 * **[@aemforms/af-core](https://www.npmjs.com/package/@aemforms/af-core)**
 
 <!-- npm i --save @aemforms/af-react-components @aemforms/af-react-renderer @aemforms/af-core -->
 
 #### Storybook
 
-[Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) offre un aperçu des différents composants des formulaires adaptatifs sans affichage. Il fournit également une liste de tous les composants pris en charge, leurs propriétés correspondantes et les contraintes.
+Le [storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) donne un aperçu des différents composants des formulaires adaptatifs découplés. Il fournit également une liste de tous les composants pris en charge, leurs propriétés et contraintes correspondantes.
 
-### Composant principal Forms
+### Composant principal des formulaires
 
 <!-- Forms components are the structural elements that constitute the content of the form being authored. These components provide various form fields and ability to customize those fields. -->
 
-Les composants principaux sont un ensemble de composants WCM (Web Content Management) normalisés qui vous permettent d’accélérer le développement et de réduire les coûts de maintenance de vos formulaires. Le composant Conteneur Forms est un composant principal. Elle vous aide à incorporer et à générer une structure JSON de formulaire adaptatif sans affichage dans l’éditeur Forms adaptatif du SDK as a Cloud Service Forms.
+Les composants principaux sont un ensemble de composants de gestion de contenu web normalisés qui permettent d’accélérer le développement et de réduire les coûts de maintenance de vos formulaires. Le composant Conteneur de formulaires est un composant principal. Il permet d’intégrer et d’effectuer le rendu d’une structure JSON de formulaire adaptatif découplé dans l’éditeur de formulaires adaptatifs du SDK Forms as a Cloud Service.
 
-### Spécifications de Forms adaptatif V2
+### Spécifications des formulaires adaptatifs V2
 
-La spécification de formulaires adaptatifs sans affichage fournit des informations détaillées sur tous les composants, contraintes et méthodes disponibles pour définir les formulaires adaptatifs sans affichage. La spécification est disponible dans [PDF](/help/assets/Headless-Adaptive-Form-Specification.pdf) format.
+La spécification des formulaires adaptatifs découplés fournit des informations détaillées sur tous les composants, contraintes et méthodes disponibles pour définir des formulaires adaptatifs découplés. La spécification est disponible au format [PDF](/help/assets/Headless-Adaptive-Form-Specification.pdf).
 
 ### API HTTP et JS
 
-[API HTTP](https://opensource.adobe.com/aem-forms-af-runtime/api/) vous permettent de répertorier, récupérer, valider, envoyer et suivre l’état d’envoi des formulaires sans interface utilisateur. [API JS](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/) vous aide à utiliser des formulaires adaptatifs sans affichage avec n’importe quelle structure d’interface utilisateur basée sur JavaScript.
+Les [API HTTP](https://opensource.adobe.com/aem-forms-af-runtime/api/) vous permettent de répertorier, de récupérer, de valider, d’envoyer et de suivre l’état d’envoi des formulaires découplés. Les [API JS](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/) vous aident à utiliser des formulaires adaptatifs découplés avec n’importe quel framework d’interface utilisateur basé sur JavaScript.
 
-### Extension Visual Studio Code
+### Extension de Visual Studio Code
 
-[Extension Visual Studio Code](visual-studio-code-extension-for-headless-adaptive-forms.md) pour créer une structure JSON valide. Elle fournit la prise en charge et la validation d’IntelliSense pour la structure JSON des formulaires, ainsi que des fonctions courantes telles que l’ajout, la suppression ou le changement de nom des composants d’une structure JSON.
+L’[extension de Visual Studio Code](visual-studio-code-extension-for-headless-adaptive-forms.md) permet de créer une structure JSON valide. Elle assure la prise en charge et la validation IntelliSense pour la structure JSON des formulaires et fournit des fonctions courantes telles que l’ajout, la suppression ou l’attribution d’un nouveau nom aux composants d’une structure JSON.
 
 <!-- ## What's next
 
