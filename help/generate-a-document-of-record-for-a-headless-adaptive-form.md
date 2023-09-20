@@ -1,15 +1,15 @@
 ---
-title: Génération d’un document d’enregistrement pour un formulaire adaptatif sans affichage
-description: Génération d’un document d’enregistrement pour un formulaire adaptatif sans affichage
+title: Générer un document d’enregistrement pour un formulaire adaptatif découplé
+description: Générer un document d’enregistrement pour un formulaire adaptatif découplé
 hide: true
 exl-id: 2817056e-81d0-4830-8fa6-005a24cfbb71
 source-git-commit: 0127f8ddede38083f0932b0e8d7efdd0dd77c3a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '37'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Génération d’un document d’enregistrement pour un formulaire adaptatif sans affichage {#generate-a-document-of-record-for-a-headless-adaptive-form}
+# Générer un document d’enregistrement pour un formulaire adaptatif découplé {#generate-a-document-of-record-for-a-headless-adaptive-form}
 
-<span class="preview"> Ceci est une **TRAVAIL EN COURS** article.</span>
+<span class="preview"> Cet article est **EN COURS D’ÉLABORATION**.</span>

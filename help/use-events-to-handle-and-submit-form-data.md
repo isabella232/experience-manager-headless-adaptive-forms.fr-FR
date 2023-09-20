@@ -1,25 +1,25 @@
 ---
-title: Utilisation d’événements pour gérer et envoyer des données de formulaires adaptatifs sans en-tête
-description: Utilisation d’événements pour gérer et envoyer des données de formulaires adaptatifs sans en-tête
+title: Utiliser des événements pour gérer et envoyer des données de formulaires adaptatifs découplés
+description: Utiliser des événements pour gérer et envoyer des données de formulaires adaptatifs découplés
 hide: false
 source-git-commit: ddd353329dfe5b47734d904b9a5e684051becc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '113'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Utilisation d’événements pour gérer et envoyer des données de formulaires adaptatifs sans en-tête {#using-events}
+# Utiliser des événements pour gérer et envoyer des données de formulaires adaptatifs découplés {#using-events}
 
-Jusqu&#39;à présent, vous apprenez à [créer un formulaire adaptatif personnalisé sans affichage](create-and-publish-a-headless-form.md) et [appliquer un style au formulaire à l’aide des composants React personnalisés ;](use-google-material-ui-react-components-to-render-a-headless-form.md). Cet article se concentre sur l’utilisation d’événements pour conserver et envoyer les données saisies par l’utilisateur à un entrepôt de données.
+Jusqu’à présent, vous avez appris à [créer un formulaire adaptatif découplé personnalisé](create-and-publish-a-headless-form.md) et à [appliquer un style au formulaire à l’aide des composants React personnalisés](use-google-material-ui-react-components-to-render-a-headless-form.md). Cet article est axé sur l’utilisation d’événements pour conserver et envoyer les données saisies par un utilisateur ou une utilisatrice à un magasin de données.
 
-Cet article présente l’envoi de données à un point de terminaison REST. Vous pouvez configurer votre formulaire pour envoyer les données à une source de données.
+Dans cet article, découvrez comment envoyer des données à un point d’entrée REST. Vous pouvez configurer votre formulaire de façon à envoyer les données à n’importe quelle source de données.
 
-## Compréhension du modèle de données
+## Comprendre le modèle de données
 
 
 
-## Utilisation d’événements pour communiquer avec le modèle de données
+## Communiquer avec le modèle de données à l’aide d’événements
 
-## Utilisation d’événements pour envoyer des données à une source de données
+## Envoyer des données à une source de données à l’aide d’événements

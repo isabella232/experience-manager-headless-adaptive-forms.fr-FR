@@ -8,13 +8,13 @@ hide: true
 hidefromtoc: true
 exl-id: d0ca7389-9a7a-421e-ab6b-7845813d860e
 source-git-commit: f489a2ba818db44ccd92df80a177f0e9f3a1bc2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2479'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Créer des formulaire attrayants à l’aide des composants principaux et découplés Forms adaptatif sur AEM Forms as a Cloud Service {#build-engaging-forms-using-core-components-and-headless}
+# Créer des formulaire attrayants à l’aide des composants principaux et découplés Formulaires adaptatifs sur AEM Forms as a Cloud Service {#build-engaging-forms-using-core-components-and-headless}
 
 ## Présentation de l’atelier {#lab-overview}
 
@@ -32,15 +32,15 @@ Comment utiliser AEM Forms pour créer facilement des formulaires adaptatifs à 
 
 ## Prérequis {#prerequisites}
 
-Pour utiliser ces mains en laboratoire :
+Pour accéder à cet atelier pratique :
 
-* Installez le [dernière version de Git](https://git-scm.com/downloads). Si vous découvrez Git, voir [Installation de Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+* Installez la [dernière version de Git](https://git-scm.com/downloads). Si vous découvrez Git, consultez l’article [Installer Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-* Installer [Node.js 16.13.0 ou version ultérieure](https://nodejs.org/en/download/). Si vous découvrez Node.js pour la première fois, voir [Comment installer Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
+* Installez [Node.js 16.13.0 ou version ultérieure](https://nodejs.org/en/download/). Si vous découvrez Node.js, consultez l’article [Comment installer Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
 
-* [Activation de Forms adaptatif sans affichage](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) pour votre environnement as a Cloud Service AEM Forms.
+* [Activer les formulaires adaptatifs découplés](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) pour votre environnement AEM Forms as a Cloud Service.
 
-* Installer [Code Visual Studio Microsoft](https://code.visualstudio.com/download) ou tout éditeur de texte brut. Des exemples dans le document utilisent le code Visual Studio de Microsoft.
+* Installez [Microsoft Code Visual Studio](https://code.visualstudio.com/download) ou un autre éditeur de texte brut. Les exemples du document utilisent Microsoft Visual Studio Code.
 
 
 
@@ -61,7 +61,7 @@ Dans cette leçon, vous vous familiarisez avec l’environnement d’AEM Forms 
 
 1. Connectez-vous à l’environnement de création de Cloud Service.
 
-1. Pour accéder à l’interface utilisateur AEM Forms, cliquez sur **Forms > Forms et documents**.
+1. Pour accéder à l’interface utilisateur AEM Forms, cliquez sur **Formulaires > Formulaires et documents**.
 
    ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
 
@@ -108,12 +108,12 @@ Dans cette leçon, en tant qu’utilisatrice ou utilisateur professionnel, vous 
       **URL de la requête POST** comme illustré ci-dessous :
       ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
-   1. Cliquez sur **Créer**. Indiquez un nom et un titre pour votre formulaire. Par exemple : **enregistrement**. Cliquez sur **Créer**.
+   1. Cliquez sur **Créer**. Indiquez un nom et un titre pour votre formulaire. Par exemple : **enregistrement**. Cliquez sur **Créer**.
 
-   1. L’éditeur de formulaire adaptatif s’ouvre. Ignorez les fenêtres contextuelles ou les boîtes de dialogue concernant les préférences ou les informations. Cliquez sur l’explorateur de composants sur le rail de gauche et ajoutez le **En-tête** et **Pied de page** composants en haut et en bas du formulaire vierge, respectivement.
+   1. L’éditeur de formulaire adaptatif s’ouvre. Ignorez les fenêtres contextuelles ou les boîtes de dialogue concernant les préférences ou les informations. Cliquez sur l’explorateur de composants sur le rail de gauche et ajoutez less composants **En-tête** et **Pied de page** en haut et en bas du formulaire vierge, respectivement.
       ![](/help/assets/screenshot2028121929.png)
 
-   1. Faites glisser et déposez des composants à partir de l’explorateur de composants pour créer un formulaire, comme suit :
+   1. Faites glisser puis déposez des composants à partir du navigateur de composants pour créer un formulaire, comme suit :
 
       ![](/help/assets/screenshot2028115129.png){width="50%" align="left"}
 
@@ -130,27 +130,27 @@ Dans cette leçon, en tant qu’utilisatrice ou utilisateur professionnel, vous 
 
       ![](/help/assets/screenshot2028123629.png){width="50%" align="left"}
 
-1. Prévisualisez et envoyez le formulaire.
+1. Prévisualisez et soumettez le formulaire.
 
    1. Cliquez sur **Aperçu** pour prévisualiser le formulaire du point de vue de l’utilisateur final ou de l’utilisatrice finale.
 
    1. Remplissez le formulaire avec des données factices..
 
-   1. Envoyer le formulaire.
+   1. Soumettez le formulaire.
       ![](/help/assets/screenshot2028125729.png)
 
-   1. Dans l’onglet Bin de requêtes, vérifiez les données envoyées.
+   1. Dans l’onglet Zone de requêtes, vérifiez les données envoyées.
       ![](/help/assets/screenshot2028125829.png)
 
-1. Ajoutez l’interactivité au formulaire avec des règles :
+1. Ajoutez de l’interactivité au formulaire avec des règles :
 
-   1. Cliquez sur le bouton **Cochez la case pour recevoir 5 % de réduction.** composant. Dans la barre d’outils des options, cliquez sur l’icône Règles . L’option Éditeur de règles s’ouvre.
+   1. Sélectionnez le composant **Cocher la case pour recevoir 5 % de réduction**. Dans la barre d’outils des options, cliquez sur l’icône Règles. L’option Éditeur de règles s’ouvre.
 
-   1. Créez une règle, lorsque la variable **Cochez la case pour recevoir 5 % de réduction.** est sélectionnée, les options d’application de la carte de crédit sont désactivées.
+   1. Créez une règle, lorsque l’option **Cochez la case pour recevoir 5 % de réduction.** est sélectionnée, les options d’application de la carte de crédit sont désactivées.
 
-1. Publication du formulaire.
+1. Publiez le formulaire.
 
-   1. Ouvrez l’interface de gestion AEM Forms, par exemple : `https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/forms.html/content/dam/formsanddocuments`, puis sélectionnez le formulaire.
+   1. Ouvrez l’interface de gestion d’AEM Forms, par exemple : `https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/forms.html/content/dam/formsanddocuments`, puis sélectionnez le formulaire.
 
    1. Cliquez sur **Publier**.
 
@@ -379,7 +379,7 @@ Modifions le formulaire sur le serveur en tant qu’utilisateur professionnel et
 
 1. Ouvrez l’interface de gestion d’AEM Forms dans le navigateur. Par exemple : [https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/forms.html/content/dam/formsanddocuments](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/forms.html/content/dam/formsanddocuments).
 
-1. Sélectionnez la variable **contactus** formulaire et clic **Modifier.** Cette action ouvre le formulaire dans l’éditeur de formulaires adaptatifs.
+1. Sélectionnez le formulaire **contactus** et cliquez sur **Modifier.** Cette action ouvre le formulaire dans l’éditeur de formulaires adaptatifs.
 
 
 1. Sélectionnez le champ **Numéro de téléphone** et cliquez sur l’**icône Modifier (icône de crayon)** dans la barre d’outils. Si la barre d’outils contextuelle ne s’affiche pas, basculez en mode d’édition en cliquant sur le bouton **Modifier** en haut à droite, à gauche du bouton **Aperçu**.
