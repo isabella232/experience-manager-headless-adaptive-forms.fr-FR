@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: Système de gestion de contenu (CMS) découplé, formulaires adaptatifs, interface utilisateur découplée, système de gestion de contenu (CMS) couplé, assistants vocaux, alexa, agents conversationnels, architecture WhatsApp
 hide: false
 exl-id: 3b5b955b-d59c-43d9-9cc4-3244a08f80dc
-source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
+source-git-commit: a88f2dab6fda61b674300e1d6a6c4f495ba85c97
 workflow-type: ht
-source-wordcount: '400'
+source-wordcount: '353'
 ht-degree: 100%
 
 ---
@@ -37,6 +37,9 @@ Une développeuse ou un développeur front-end rompu aux frameworks JavaScript m
 
 Aucune connaissance préalable d’Adobe Experience Manager n’est nécessaire pour développer des formulaires adaptatifs découplés.
 
-## Comment rejoindre le programme d’utilisateurs et utilisatrices précoces ? {#how-to-join-early-adopter-forms}
+<!-- 
+## How to join the early adopter program? {#how-to-join-early-adopter-forms}
 
-Le service est disponible pour les clients et clientes AEM Forms as a Cloud Service et AEM 6.5.16.0 Forms ou versions ultérieures On-Premise et les clients et clientes Adobe Managed Enterprise. Envoyez un e-mail à [headlessadaptiveforms@adobe.com](mailto:headlessadaptiveforms@adobe.com) à partir de votre ID d’e-mail officiel pour rejoindre le programme d’utilisateurs et utilisatrices précoces.
+The service is available for AEM Forms as a Cloud Service and AEM 6.5.16.0 Forms or later On-Premise term customers and Adobe-Managed Service enterprise customers. Send an email to [headlessadaptiveforms@adobe.com](mailto:headlessadaptiveforms@adobe.com) from your official email ID to join the early adopter program. 
+
+-->
