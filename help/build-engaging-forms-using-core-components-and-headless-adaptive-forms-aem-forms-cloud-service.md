@@ -6,11 +6,11 @@ seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
 hide: true
 hidefromtoc: true
-exl-id: d0ca7389-9a7a-421e-ab6b-7845813d860e
-source-git-commit: f489a2ba818db44ccd92df80a177f0e9f3a1bc2c
-workflow-type: ht
-source-wordcount: '2479'
-ht-degree: 100%
+exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
+source-git-commit: 2332af82ea221086c3b014989651e34726040ba2
+workflow-type: tm+mt
+source-wordcount: '2480'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ Pour accéder à cet atelier pratique :
 
 * Installez [Node.js 16.13.0 ou version ultérieure](https://nodejs.org/en/download/). Si vous découvrez Node.js, consultez l’article [Comment installer Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
 
-* [Activer les formulaires adaptatifs découplés](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) pour votre environnement AEM Forms as a Cloud Service.
+* [Activation des composants principaux de Forms adaptatif](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) pour votre environnement as a Cloud Service AEM Forms.
 
 * Installez [Microsoft Code Visual Studio](https://code.visualstudio.com/download) ou un autre éditeur de texte brut. Les exemples du document utilisent Microsoft Visual Studio Code.
 
@@ -189,7 +189,7 @@ Configurez le référentiel local du thème :
    cd c:\git
    ```
 
-1. Utilisez la commande suivante pour cloner le code frontal du thème :
+1. Utilisez la commande suivante pour cloner le code front-end du thème :
 
    ```Shell
    git clone -b WKND https://github.com/adobe/aem-forms-theme-canvas
@@ -492,7 +492,7 @@ Pour effectuer le rendu du formulaire hébergé dans votre environnement de publ
    ![](/help/assets/screenshot2028127129.png)
 
    La commande démarre un serveur de développement local et effectue le rendu de la définition de formulaire récupérée à partir d’AEM de façon découplée à l’aide de
-la bibliothèque frontend de l’interface utilisateur Material Google.
+la bibliothèque front-end de l’interface utilisateur Material Google.
 
    >[!NOTE]
    >
