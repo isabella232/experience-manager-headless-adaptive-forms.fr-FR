@@ -5,10 +5,10 @@ description: Découvrez comment activer des formulaires adaptatifs découplés s
 seo-description: Learn how to enable headless adaptive forms on AEM 6.5 Forms with our step-by-step guide. Our tutorial walks you through the process, making it easy to integrate this powerful feature into your website and improve your user experience.
 contentOwner: Khushwant Singh
 role: Admin
-exl-id: c5a7dee1-b177-4461-b9bd-af40ef59ad80
-source-git-commit: f489a2ba818db44ccd92df80a177f0e9f3a1bc2c
+exl-id: e1a5e7e0-d445-4cca-b8d7-693d9531f075
+source-git-commit: 999c3d092d03d7a82363bc94ce79ceb33bf0df7e
 workflow-type: ht
-source-wordcount: '752'
+source-wordcount: '743'
 ht-degree: 100%
 
 ---
@@ -135,9 +135,9 @@ Les [composants principaux](https://experienceleague.adobe.com/docs/experience-m
 ### Quelles sont les fonctionnalités des composants principaux ?
 
 
-Lorsque les composants principaux des formulaires adaptatifs sont activés pour votre environnement, un modèle vierge de formulaire adaptatif basé sur les composants principaux et le thème Canvas 3.0 sont ajoutés à votre environnement. Une fois que vous avez activé les composants principaux des formulaires adaptatifs pour votre environnement, vous pouvez :
+Lorsque les composants principaux des formulaires adaptatifs sont activés pour votre environnement, un modèle vierge de formulaire adaptatif basé sur les composants principaux et le thème Canvas 3.0 sont ajoutés à votre environnement. Après avoir activé les composants principaux des formulaires adaptatifs pour votre environnement, vous pouvez :
 
-* créer des formulaires adaptatifs basés sur des composants principaux ;
-* créer des modèles de formulaire adaptatif basé sur des composants principaux ;
-* créer des thèmes personnalisés pour les modèles de formulaire adaptatif basés sur des composants principaux ;
+* Créer un formulaire adaptatif basé sur des composants principaux.
+* Créer des modèles de formulaires adaptatifs basés sur des composants principaux.
+* Créer des thèmes personnalisés pour les modèles de formulaires adaptatifs basés sur les composants principaux.
 * diffuser les représentations JSON des formulaires adaptatifs basés sur les composants principaux vers des canaux tels que le mobile, le Web, les applications natives et les services qui requièrent la représentation découplée d’un formulaire.

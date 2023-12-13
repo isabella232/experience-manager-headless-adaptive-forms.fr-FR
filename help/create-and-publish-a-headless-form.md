@@ -10,7 +10,7 @@ hide: false
 exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
 source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
 workflow-type: ht
-source-wordcount: '1017'
+source-wordcount: '1004'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ C’est parti !
 
 Pour créer et exécuter une application React, les éléments suivants doivent être installés sur votre ordinateur :
 
-* Installez la [dernière version de Git](https://git-scm.com/downloads). Si vous découvrez Git, consultez [Installer Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+* Installez la [dernière version de Git](https://git-scm.com/downloads). Si vous découvrez Git, consultez l’article [Installer Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 * Installez [Node.js 16.13.0 ou version ultérieure](https://nodejs.org/en/download/). Si vous découvrez Node.js pour la première fois, consultez [Comment installer Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
 
