@@ -4,17 +4,15 @@ seo-title: Build Engaging Forms Using Core Components and Headless
 description: Créer des formulaire attrayants à l’aide des composants principaux et découplés
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
-hide: true
-hidefromtoc: true
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
-source-git-commit: 2332af82ea221086c3b014989651e34726040ba2
-workflow-type: ht
-source-wordcount: '2480'
-ht-degree: 100%
+source-git-commit: 428416d61f236396449d26df208bf284a1ad162f
+workflow-type: tm+mt
+source-wordcount: '2452'
+ht-degree: 96%
 
 ---
 
-# Créer des formulaire attrayants à l’aide des composants principaux et découplés Formulaires adaptatifs sur AEM Forms as a Cloud Service {#build-engaging-forms-using-core-components-and-headless}
+# Créez des formulaires attrayants à l’aide de composants de base et de formulaires adaptatifs découplés sur AEM Forms as a Cloud Service {#build-engaging-forms-using-core-components-and-headless}
 
 ## Présentation de l’atelier {#lab-overview}
 
@@ -36,7 +34,7 @@ Pour accéder à cet atelier pratique :
 
 * Installez la [dernière version de Git](https://git-scm.com/downloads). Si vous découvrez Git, consultez l’article [Installer Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-* Installez [Node.js 16.13.0 ou version ultérieure](https://nodejs.org/en/download/). Si vous découvrez Node.js, consultez l’article [Comment installer Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
+* Installez [Node.js 16.13.0 ou version ultérieure](https://nodejs.org/en/download/). Si vous découvrez Node.js, consultez l’article [Comment installer Node.js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs).
 
 * [Activer les composants principaux des formulaires adaptatifs](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) pour votre environnement AEM Forms AEM Cloud Service.
 
@@ -60,10 +58,11 @@ Dans cette leçon, vous vous familiarisez avec l’environnement d’AEM Forms 
    [https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/start.html](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/start.html)
 
 1. Connectez-vous à l’environnement de création de Cloud Service.
+   ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
 
 1. Pour accéder à l’interface utilisateur AEM Forms, cliquez sur **Formulaires > Formulaires et documents**.
 
-   ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
+
 
    ![](/help/assets/screenshot2028113929.png){width="50%" align="left"}
 
@@ -134,7 +133,7 @@ Dans cette leçon, en tant qu’utilisatrice ou utilisateur professionnel, vous 
 
    1. Cliquez sur **Aperçu** pour prévisualiser le formulaire du point de vue de l’utilisateur final ou de l’utilisatrice finale.
 
-   1. Remplissez le formulaire avec des données factices..
+   1. Remplissez le formulaire avec des données factices.
 
    1. Soumettez le formulaire.
       ![](/help/assets/screenshot2028125729.png)
@@ -225,6 +224,13 @@ Configurez le référentiel local du thème :
 
      ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
 
+1. Créez un utilisateur local dans AEM environnement.
+
+   >[!NOTE]
+   > Pour créer un utilisateur local :
+   > Accédez à `AEM Home` > `Tools` > `Security` > `Users`
+   > Assurez-vous que l’utilisateur est membre du groupe forms-users .
+
 
 1. Dans la fenêtre de l’invite de commande, exécutez la commande suivante :
 
@@ -247,7 +253,10 @@ Configurez le référentiel local du thème :
 
    ![](/help/assets/screenshot2028117229.png)
 
-   Une fois la commande ci-dessus exécutée, attendez le message `webpack compiled`. Le formulaire s’affiche dans un onglet du navigateur.
+   Une fois la commande ci-dessus exécutée, attendez la `webpack compiled` et vous êtes redirigé vers une page de connexion AEM.
+
+1. Cliquez sur **Connexion locale (tâches d’administration uniquement)** sur la page de connexion AEM.
+1. Saisissez les informations d’identification de l’utilisateur local créé et le formulaire s’affiche dans un onglet de navigateur.
 
    >[!NOTE]
    >
