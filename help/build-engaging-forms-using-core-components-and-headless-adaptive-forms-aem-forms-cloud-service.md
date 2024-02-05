@@ -5,10 +5,10 @@ description: Créer des formulaire attrayants à l’aide des composants princip
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
-source-git-commit: 428416d61f236396449d26df208bf284a1ad162f
+source-git-commit: bcc51bcae3b26cf20e7c0b5b75935bf69a991731
 workflow-type: tm+mt
 source-wordcount: '2452'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -84,9 +84,9 @@ Dans cette leçon, en tant qu’utilisatrice ou utilisateur professionnel, vous 
 1. Créez un point d’entrée d’envoi pour le formulaire :
 
    1. Ouvrez <https://requestbin.com/> dans un nouvel onglet du navigateur.
+   1. Cliquez sur **Créer un répertoire bin public** et copiez l’URL du point d’entrée.
       ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
-   1. Cliquez sur **Créer un répertoire bin public** et copiez l’URL du point d’entrée.
       ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
 
 1. Créez un formulaire adaptatif à l’aide de l’interface de l’assistant :
@@ -103,8 +103,7 @@ Dans cette leçon, en tant qu’utilisatrice ou utilisateur professionnel, vous 
    1. Cliquez sur l’onglet **Style** et sélectionnez le thème **wknd-theme** comme illustré ci-dessous :
       ![](/help/assets/screenshot202023-03-0120at206.09.2320pm.png)
 
-   1. Cliquez sur l’onglet **Envoi** et sélectionnez la carte **Envoyer vers le point d’entrée REST**, puis spécifiez le répertoire bin public dans le champ
-      **URL de la requête POST** comme illustré ci-dessous :
+   1. Cliquez sur le bouton **Envoi** et sélectionnez l’option **Envoyer vers le point de fin REST** et spécifiez la corbeille publique dans la **URL de la demande du POST** comme illustré ci-dessous :
       ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
    1. Cliquez sur **Créer**. Indiquez un nom et un titre pour votre formulaire. Par exemple : **enregistrement**. Cliquez sur **Créer**.
@@ -115,10 +114,6 @@ Dans cette leçon, en tant qu’utilisatrice ou utilisateur professionnel, vous 
    1. Faites glisser puis déposez des composants à partir du navigateur de composants pour créer un formulaire, comme suit :
 
       ![](/help/assets/screenshot2028115129.png){width="50%" align="left"}
-
-
-
-
 
 1. Ajoutez des validations au formulaire :
 
@@ -242,7 +237,7 @@ Configurez le référentiel local du thème :
 
    >[!NOTE]
    >
-   > * Si vous recevez un message vous demandant de mettre à jour npm via la commande `npm notice Run npm nstall -g npm@9.6.0`, ignorez-le.
+   > * Si vous recevez un message vous demandant de mettre à jour npm via le `npm notice Run npm nstall -g npm@9.6.0` , ignorez le message.
    > * N’exécutez pas d’autres commandes npm, sauf si cela est indiqué dans le classeur.
 
 1. Exécutez maintenant la commande suivante pour prévisualiser le formulaire.
