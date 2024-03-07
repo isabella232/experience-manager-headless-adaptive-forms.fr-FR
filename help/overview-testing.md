@@ -9,7 +9,8 @@ level: Beginner, Intermediate
 keywords: Système de gestion de contenu (CMS) découplé, formulaires adaptatifs, interface utilisateur découplée, système de gestion de contenu (CMS) couplé, assistants vocaux, alexa, agents conversationnels, architecture WhatsApp
 hide: true
 hidefromtoc: true
-source-git-commit: 78ae6bc3e390d6a8e46d10d3ad3580c4268bf4ed
+exl-id: f6a383ea-684b-479d-a15f-8ebced75635e
+source-git-commit: 7516095c2074b0b3b5300d75dc9624beb7ffb3f6
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 92%
@@ -32,6 +33,13 @@ Les formulaires adaptatifs découplés vous aident à :
 En outre, vous avez la possibilité de développer vos propres composants pour rendre un formulaire à l’aide du framework d’interface utilisateur et du langage de programmation de votre choix. Vous pouvez également utiliser les composants React prêts à l’emploi pour générer un formulaire adaptatif découplé.
 
 ## Fonctions clés
+
+<div>
+
+<iframe src="https://new.express.adobe.com/published/urn:aaid:sc:AP:8043685e-6c54-471a-a2ee-b8fcd357668f?promoid=Y69SGM5H&mv=other" style="width:100%; height:100vh; border:none;"></iframe>
+
+</div>
+
 
 <!-- 
 
